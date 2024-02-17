@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="audio-container">
+        <div class="audio-player">
+            <img src="music.jpg" alt="Music Photo" class="music-photo" id="music-photo">
+            <audio src="" id="audio"></audio>
+            <input type="range" id="seek-bar" value="0">
+            <div class="controls">
+                <i class="fas fa-backward control-icon" id="backward"></i>
+                <i class="fas fa-play control-icon" id="play-pause"></i>
+                <i class="fas fa-forward control-icon" id="forward"></i>
+                <i class="fas fa-retweet control-icon" id="loop"></i>
+            </div>
+        </div>
+    </div>
+    <div class="lyrics-container" id="lyrics-container">
+        <div id="lyrics" class="lyrics"></div>
+    </div>
+</div>
+
+      <script src="main.js"></script>
+
+    
+</body>
+</html>
